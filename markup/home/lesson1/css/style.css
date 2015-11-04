@@ -3,7 +3,7 @@
     box-shadow: 0 0 2px 2px rgba(167, 164, 164, .58);
     position: relative;
 }
-.menu {
+body {
     background-color: #eee;
     font-size: 14px;
     font-family: Bookman Old Style;
