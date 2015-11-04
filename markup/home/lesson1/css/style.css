@@ -1,6 +1,47 @@
-.profile{
-        	border: 1px solid #fff; 
-        	box-shadow: 0 0 2px 2px rgba(167, 164, 164, .58);
-        	position: relative;
-        	
-        }
+.profile {
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px 2px rgba(167, 164, 164, .58);
+    position: relative;
+}
+.menu {
+    background-color: #eee;
+    font-size: 14px;
+    font-family: Bookman Old Style;
+}
+.account {
+    background-color: white;
+    padding: 15px 30px;
+    max-width: 600px;
+    margin: 50px auto;
+}
+.account {
+    text-align: margin: 40px;
+}
+.account {
+    text-align: center;
+}
+img {
+    left: -100px;
+    " alt="Lana Kyrylyuk"
+
+}
+.article {
+    border-bottom: 1px solid #696969;
+    border: 0 0 1px 0 solid grey;
+    text-align: left;
+}
+.article {
+    border-bottom: 1px solid #696969;
+    border: 0 0 1px 0 solid grey;
+    text-align: left;
+}
+.article {
+    border-bottom: 1px solid #696969;
+    border: 0 0 1px 0 solid grey;
+    text-align: left;
+}
+.ending {
+    border-bottom: 1px solid white;
+    border: 0 0 1px 0 solid grey;
+    text-align: left;
+}
