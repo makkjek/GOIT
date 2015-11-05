@@ -1,8 +1,3 @@
-.profile {
-    border: 1px solid #fff;
-    box-shadow: 0 0 2px 2px rgba(167, 164, 164, .58);
-    position: relative;
-}
 body {
     background-color: #eee;
     font-size: 14px;
@@ -10,38 +5,20 @@ body {
 }
 .account {
     background-color: white;
-    padding: 15px 30px;
+    padding: 30px 50px;
     max-width: 600px;
     margin: 50px auto;
+    border: 1px solid #fff;
+    box-shadow: 0 0 2px 2px rgba(167, 164, 164, .58);
+    position: relative;
 }
-.account {
-    text-align: margin: 40px;
-}
-.account {
+.name,
+.photo {
     text-align: center;
 }
-img {
-    left: -100px;
-    " alt="Lana Kyrylyuk"
-
-}
-.article {
+.article,
+ending {
     border-bottom: 1px solid #696969;
-    border: 0 0 1px 0 solid grey;
-    text-align: left;
-}
-.article {
-    border-bottom: 1px solid #696969;
-    border: 0 0 1px 0 solid grey;
-    text-align: left;
-}
-.article {
-    border-bottom: 1px solid #696969;
-    border: 0 0 1px 0 solid grey;
-    text-align: left;
-}
-.ending {
-    border-bottom: 1px solid white;
     border: 0 0 1px 0 solid grey;
     text-align: left;
 }
