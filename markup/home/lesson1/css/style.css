@@ -1,8 +1,10 @@
+/*стили для всей страницы*/
 body {
     background-color: #eee;
     font-size: 14px;
     font-family: Bookman Old Style;
 }
+/*стили для обертки*/
 .account {
     background-color: white;
     padding: 30px 50px;
@@ -12,10 +14,12 @@ body {
     box-shadow: 0 0 2px 2px rgba(167, 164, 164, .58);
     position: relative;
 }
+/*стили для имени и фото*/
 .name,
 .photo {
     text-align: center;
 }
+/*стили для содержания*/
 .article,
 ending {
     border-bottom: 1px solid #696969;
