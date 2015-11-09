@@ -1,0 +1,114 @@
+body {
+    background: #F4F4F4;
+}
+.wrapper {
+    width: 1060px;
+    height: 1060px;
+    margin: 0 50px 0 50px;
+    background-color: white;
+    padding: 30px 70px 30px 30px;
+    box-shadow:0 0 2px 2px rgba(167, 164, 164, .58);
+}
+.header {
+    width: 100%;
+    margin-top: 0;
+}
+.menu a {
+    margin-left: 0px;
+    border-bottom: 0;
+    border-color: #ACA9A9;
+    padding: 0px 60px 0px 20px;
+    fontcolor: #EBE7E7;
+}
+.box {
+    background-image: linear-gradient(#5e5e5e,#444343);
+    height: 40px;
+    width: 880px;
+    padding: 6px 0 9px 20px;
+    margin: 0 1px 0 1px;
+}
+.box ul a {
+    text-underline-mode: none;
+    text-decoration: none;
+}
+.page_body {
+    width: 900px;
+    height: 800px;
+    border: 1px solid white;
+}
+.side_menu {
+
+    float: left;
+    width: 287px;
+    height: 120px;
+    margin-top: 20px;
+}
+.side_menu ul{
+
+    background: white;
+    color: white;
+    width: 200px;
+    height: 120px;
+    padding: 50px;
+    box-shadow:0 0 1px 1px rgba(167, 164, 164, .58);
+}
+.side_menu a{
+    background: white;
+    color: dimgray;
+    border: 1px;
+    padding: 3px 50px;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+}
+.side_menu a:hover {
+
+    border: 1px;
+    color: white;
+    width: 287px;
+    background-color: #E7E4E4;
+}
+#change:hover {
+    color: #E8E5E5
+}
+.article img {
+    margin-top: 40px;
+    margin-right: 0;
+    margin-left: 40px;
+    margin-bottom: 50px;
+    float: right;
+    width: 570px;
+    height: 380px;
+    box-shadow: 0 0 1px 1px rgba(167, 164, 164, .58);
+}
+.article p {
+    font-size: 12px;
+    font-style: normal;
+    clear: both;
+    padding-left: 350px;
+    margin-bottom: 70px;
+}
+.footer {
+
+    float: bottom;
+}
+.footer_menu {
+
+    background: #c0c0c0;
+    height: 40px;
+    width: 880px;
+    padding: 6px 0 9px 20px;
+}
+.footer_menu a {
+
+    padding: 49px 60px 20px 20px;
+}
+
+.footer_menu a:hover {
+    color: #505050; text-decoration: underline;
+}
+
+.footer-box ul a {
+    text-underline-mode: none;
+    text-decoration: none;
+}
