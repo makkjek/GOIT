@@ -1,0 +1,128 @@
+body {
+    background: #F4F4F4;
+}
+.wrapper {
+    width: 1060px;
+    margin: 0 50px 0 50px;
+    background-color: white;
+    padding: 30px 70px 30px 30px;
+    box-shadow: 0 0 2px 2px rgba(167, 164, 164, .58);
+    max-width: 100%;
+    box-sizing: border-box;
+}
+header {
+    /*style header*/
+}
+/*menu*/
+
+.menu {
+    padding: 0;
+    margin: 0 1px 0 1px;
+    background-image: linear-gradient(#5e5e5e, #444343);
+}
+.menu li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+.menu li a {
+    display: block;
+    padding: 0px 20px 0px 20px;
+    color: #EBE7E7;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+}
+.menu li a:hover {
+    background-color: black;
+    color: white;
+}
+.menu li.active a {
+    background-color: black;
+    color: white;
+}
+/*Page*/
+
+.page_body {
+    border: 1px solid white;
+    padding-top: 20px;
+}
+/* side menu bar*/
+
+.side_menu {
+    float: left;
+    padding: 0;
+    margin: 0;
+    width: 35%;
+    background: white;
+    color: white;
+    box-shadow: 0 0 1px 1px rgba(167, 164, 164, .58);
+}
+.side_menu li {
+    margin: 0;
+    padding: 0;
+}
+.side_menu li a {
+    background: white;
+    color: dimgray;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+    list-style: none;
+    border-bottom: 1px solid #ccc;
+}
+.side_menu li a:hover {
+    color: white;
+    background-color: #E7E4E4;
+}
+.side_menu li.active a {
+    color: white;
+    background-color: #E7E4E4;
+}
+/*Article*/
+
+.article {
+    float: right;
+    width: 60%;
+    box-sizing: border-box;
+    padding: 20px;
+    box-shadow: 0 0 1px 1px rgba(167, 164, 164, .58);
+}
+.article img {
+    display: block;
+    max-width: 100%;
+}
+.article p {
+    font-size: 12px;
+}
+/*Footer*/
+
+footer {
+    clear: both;
+    float: none;
+    padding: 30px 0 0;
+}
+footer .footer_menu {
+    background: #c0c0c0;
+    padding: 0;
+    margin: 0 1px 0 1px;
+}
+footer .footer_menu li {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+}
+footer .footer_menu li a {
+    display: block;
+    padding: 0px 20px 0px 20px;
+    color: dimgrey;
+    height: 40px;
+    line-height: 40px;
+    text-decoration: none;
+}
+footer .footer_menu li.active a {
+    text-decoration: underline;
+}
+footer .footer_menu li a:hover {
+    text-decoration: underline;
+}
