@@ -37,10 +37,7 @@ header {
     background-color: black;
     color: white;
 }
-.menu li.active a {
-    background-color: black;
-    color: white;
-}
+
 /*Page*/
 
 .page_body {
@@ -76,11 +73,7 @@ header {
     background-color: #E7E4E4;
     padding-left: 20px;
 }
-.side_menu li.active a {
-    color: white;
-    background-color: #E7E4E4;
 
-}
 /*Article*/
 
 .article {
@@ -122,9 +115,7 @@ footer .footer_menu li a {
     line-height: 40px;
     text-decoration: none;
 }
-footer .footer_menu li.active a {
-    text-decoration: underline;
-}
+
 footer .footer_menu li a:hover {
     text-decoration: underline;
 }
