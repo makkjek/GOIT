@@ -7,7 +7,7 @@ body {
 }
 .wrapper {
     width: 1060px;
-    height: 1200px;
+    height: 860px;
     margin: auto;
     background-color: white;
     padding: 30px 70px 30px 30px;
@@ -37,10 +37,15 @@ header {
     height: 40px;
     line-height: 40px;
     text-decoration: none;
+
 }
 .menu li a:hover {
     background-color: black;
     color: white;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+
+
 }
 
 /*Page*/
@@ -76,7 +81,8 @@ header {
 .side_menu li a:hover {
     color: white;
     background-color: #E7E4E4;
-    padding-left: 20px;
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
 }
 
 /*Article*/
