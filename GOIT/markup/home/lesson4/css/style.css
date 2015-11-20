@@ -4,16 +4,13 @@
     background-size: 100% 100%;
     font-family: Tahoma, Arial;
 }
-
 ul {
     list-style: none;
 }
-
 li {
     text-align: center;
     list-style: none;
 }
-
 .clearfix:after {
     content: "";
     clear: both;
@@ -22,7 +19,6 @@ li {
 }
 body {
     /*body styles*/
-
     background: #0C739F url("../img/fragment.png") repeat-x;
 }
 .wrapper {
@@ -32,6 +28,7 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.73);
 }
 .header-top {
+/*styles for the header*/
     height: 175px;
     float: left;
 }
@@ -51,14 +48,19 @@ body {
     margin-right: 35px;
 }
 .contacts {
+    margin-top: 10px;
     font-size: 12px;
-    padding-top: 10px;
+    float: right;
 }
 .contacts p {
     margin: 5px;
 }
+.contacts h4 {
+    text-align: center;
+}
 .flags {
     padding-top: 15px;
+    float: right;
 }
 .flags li {
     display: inline-block;
@@ -69,16 +71,19 @@ body {
     text-decoration: none;
 }
 .ad {
-    /*styles for banner*/
-
+    /*styles for the banner*/
     height: 240px;
     background: white url("../img/travel.png");
     background-size: 100% 100%;
+    border-bottom: 1px solid #128AA7;
+    border-top: 1px solid #128AA7;
 }
 .menu {
+    /*styles for the menu*/
     height: 30px;
     width: 100%;
     background-image: linear-gradient(#5e5e5e, #444343);
+    border-bottom: 1px solid black;
 }
 .menu a {
     color: white;
@@ -97,7 +102,6 @@ body {
     height: 30px;
     cursor: pointer;
     position: relative;
-    border-bottom: 1px solid black;
 }
 .menu li ul {
     display: none;
@@ -107,7 +111,6 @@ body {
     margin: 0;
     width: 140px;
     background: #2c2c2c;
-    border: 1px solid #000;
 }
 . menu li ul li {
     float: none;
@@ -120,19 +123,19 @@ body {
     background: #777;
 }
 .container {
+    /*styles for the content part*/
     background-color: white;
     height: 540px;
     text-align: justify;
     font-size: 14px;
     color: rgb(66, 76, 67);
+    padding: 1px;
 }
-
 .container p {
     text-align: center;
     font: 16px/22px Arial, sans-serif;
     margin-top: 10px;
 }
-
 .container .sidebar {
     /*sidebar styles*/
     background-color: #EDEEF0;
@@ -141,23 +144,31 @@ body {
     width: 210px;
     padding: o 15px;
 }
-
+.container .sidebar h3 {
+    text-align: center;
+    font: bald;
+    margin-top: 10px;
+}
 .container .content {
     float: left;
     width: 210px;
     height: 100%;
     padding: 0 15px;
 }
-
 .container .news {
     background-color: #EDEEF0;
     width: 210px;
     height: 100%;
     float: right;
     padding: 0 15px;
-
+}
+.container .news h3 {
+    text-align: center;
+    font: bald;
+    margin-top: 10px;
 }
 .footer {
+    /*footer styles*/
     text-align: center;
     height: 34px;
     color: rgba(255, 255, 255, 08);
