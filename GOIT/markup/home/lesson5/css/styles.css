@@ -1,0 +1,88 @@
+* {
+    padding: 0;
+    margin: 0;
+    background-size: 100% 100%;
+    font-family: Tahoma, Arial;
+    list-style: none;
+    color: white;
+}
+body {
+    /*body styles*/
+    background: url("../img/mountains.png")no-repeat;
+    background-size: cover;
+}
+.header{
+    background-color: rgba(7,81,144,2);
+}
+.header li{
+    float: right;
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+}
+.header li a{
+    display: block;
+    position: relative;
+    line-height: 35px;
+    color: #60b5ed;
+    padding: 0px 30px;
+    text-decoration: none;
+    font-size: 12pt;
+}
+.clearfix:after{
+    content:'';
+    clear:both;
+    display:block;
+}
+.input_form {
+    height: 612px;
+    width: 560px;
+    margin: 200px auto;
+}
+.input_form_header {
+    height: 62px;
+    width: 100%;
+    margin-bottom: 2px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.input_form_content {
+    height: 548px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+.facebook{
+
+}
+.ou{
+    text-align:center;
+}
+.ou span:before{
+    border-top: 1px solid black;
+    width: 50px;
+    height: 2px;
+    background: #f2f2f2;
+}
+.ou span:after{
+    content: "¶ ";
+}
+.form {
+    position: relative;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    width: 100%;
+}
+.form input {
+    display: block;
+    margin: auto;
+    height: 34px;
+    border: none;
+    margin-bottom: 15px;
+    text-indent: 20px;
+    font-size: 14px;
+    border-bottom: 1px solid #484948;
+    background: black;
+}
+input:focus {
+    background-color:#1B5288;
+}
