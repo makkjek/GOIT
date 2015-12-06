@@ -11,10 +11,70 @@ body {
     background: url("../img/mountains.png")no-repeat;
     background-size: cover;
 }
-.header{
-    background-color: rgba(7,81,144,2);
+header .login, header .offer, header .menu {
+    padding-top: 2px;
+    height: 31px;
+    line-height: 15px;
 }
-.header li{
+header{
+    background-color: rgba(7,81,144,2);
+    height: 35px;
+
+}
+header .login, header .offer, header .menu {
+    padding-top: 2px;
+    height: 31px;
+
+}
+header ul {
+    padding-top: 5px;
+}
+.login {
+    float: right;
+    margin-right: 20px;
+    text-align: center;
+    width: 190px;
+
+}
+.login a:hover {
+    text-decoration: none;
+}
+.offer {
+    float: right;
+    width: 145px;
+    text-align: right;
+    height: 31px;
+    margin: 2px;
+    padding: 0 20px 0 20px;
+    background: url(../img/flag.png) no-repeat 10% 30%;
+    border-left: 1px solid deepskyblue;
+}
+.offer a{
+    text-decoration: none;
+}
+.offer a:hover {
+    text-decoration: underline;
+}
+.menu {
+    overflow: hidden;
+    outline: 1px solid black;
+}
+.menu li {
+    float: right;
+    height: 35px;
+    outline: 1px solid black;
+}
+.menu a {
+    text-decoration: none;
+    padding: 0 9px 0 9px;
+
+}
+.menu a:hover {
+    background-color: aliceblue;
+
+}
+
+/*.header li{
     float: right;
     position: relative;
     text-decoration: none;
@@ -28,7 +88,7 @@ body {
     padding: 0px 30px;
     text-decoration: none;
     font-size: 12pt;
-}
+}*/
 .clearfix:after{
     content:'';
     clear:both;
@@ -51,20 +111,59 @@ body {
     background-color: rgba(0, 0, 0, 0.7);
 }
 .facebook{
+    height: 70px;
+    margin: auto;
+    /*background: url(../img/facebook.png) no-repeat;*/
+    /*position: relative;*/
+}
+.facebook_button a {
+    background: url(../img/facebook.png) no-repeat;
+    display: block;
+    position: relative;
+    margin: auto;
+}
+/*.facebook a {*/
+    /*width: 270px;*/
+    /*height: 35px;*/
+    /*outline: 1px solid black;*/
+/*}*/
+
+.ou {
+    text-align: center;
+}
+.ou span{
+    display: inline-block;
+    position: relative;
+    color: gray;
 
 }
-.ou{
-    text-align:center;
-}
-.ou span:before{
-    border-top: 1px solid black;
+.ou span:before,
+.ou span:after {
+    content: "";
+    position: absolute;
+    height: 0;
+    border-bottom: 1px solid black;
+    border-top: 1px solid darkgrey;
+    top: 10px;
     width: 50px;
-    height: 2px;
-    background: #f2f2f2;
 }
-.ou span:after{
-    content: "¶ ";
+.ou span:before {
+    right: 100%;
+    margin-right: 15px;
 }
+.ou span:after {
+    left: 100%;
+    margin-left: 15px;
+}
+/*.ou span:before{*/
+    /*border-top: 1px solid black;*/
+    /*width: 50px;*/
+    /*height: 2px;*/
+    /*background: #f2f2f2;*/
+/*}*/
+/*.ou span:after{*/
+    /*content: "¶ ";*/
+/*}*/
 .form {
     position: relative;
     display: block;
@@ -72,7 +171,15 @@ body {
     font-size: 14px;
     width: 100%;
 }
+.input_form_header{
+    font-size: 21px;
+    text-align: center;
+    height: 60px;
+
+
+}
 .form input {
+    width: 280px;
     display: block;
     margin: auto;
     height: 34px;
@@ -85,4 +192,29 @@ body {
 }
 input:focus {
     background-color:#1B5288;
+}
+.subscribe {
+    width: 280px;
+    margin: 0 auto;
+    height: 40px;
+    /*float: left;*/
+    /*margin-left: 50px;*/
+}
+.subscribe input {
+    width: auto;
+    float: none;
+    margin: 0 10px 0;
+    display: inline-block;
+    height: auto;
+
+}
+.btn{
+   border-radius: 3px;}
+p {
+    font-size: 14px;
+}
+footer p {
+    font-size: 11px;
+    text-align: center;
+    padding-top: 25px;
 }

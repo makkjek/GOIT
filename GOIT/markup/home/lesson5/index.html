@@ -7,26 +7,39 @@
 </head>
 <body>
     <div class="wrapper">
-          <div class="header clearfix">
+          <header>
+              <div class="login">
               <ul>
-                  <li><a href="#">Ola! Entar ou Cadastre-se</a></li>
-                  <li><a href="#">Minhas Ofetas </a></li>
+                  <li>Ola!<a href="#">Entar</a> ou <a href="#">Cadastre-se</a></li>
+              </ul>
+              </div>
+              <div class="offer">
+              <ul>
+                  <li><a href="#">Minhas Ofetas</a></li>
+              </ul>
+              </div>
+              <div class="menu">
+              <ul>
                   <li><a href="#">Ajuda</a></li>
                   <li><a href="#">Contato</a></li>
                   <li><a href="#">Forum</a></li>
                   <li><a href="#">Vender</a></li>
-                  <li><a href="#">Meu You Bike</a></li>
+                  <li><a href="#">Meu YouBike</a></li>
               </ul>
-          </div>
+              </div>
+          </header>
         <div class="input_form">
             <div class="input_form_header">
                 <h1>Cadastre-se</h1>
             </div>
             <div class="input_form_content">
                 <div class="facebook">
+
+                    <a class="facebook_button "href="#"></a>
+
                 </div>
                 <div class="ou">
-                   <span>OU</span>
+                    <span>OU</span>
                 </div>
                 <div class="form">
                     <form action="/" method="POST">
@@ -35,8 +48,12 @@
                         <input type="email" placeholder="Email Address" required>
                         <input type="password" placeholder="Choose Password" required>
                         <input type="password" placeholder="Password Confirm" required>
-
-
+                        <div class="subscribe"><label><input type="checkbox" id="subscribe">Send me Youbike updates and tips</label></div>
+                        <input type="button" class="btn" value="Create my Account">
+                        <footer>
+                            <p>By clicking the button above, you agree to the Terms of Service</p>
+                            <p>Xiew our Privacy Policy.</p>
+                        </footer>
                     </form>
                 </div>
             </div>
