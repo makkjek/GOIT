@@ -116,18 +116,23 @@ header ul {
     /*background: url(../img/facebook.png) no-repeat;*/
     /*position: relative;*/
 }
-.facebook_button a {
+.facebook a {
     background: url(../img/facebook.png) no-repeat;
     display: block;
     position: relative;
     margin: auto;
+    height: 35px;
+    width: 276px;
+    top: 20px;
 }
-/*.facebook a {*/
-    /*width: 270px;*/
-    /*height: 35px;*/
-    /*outline: 1px solid black;*/
-/*}*/
-
+.facebook a:hover {
+    -webkit-box-shadow: 0px 0px 15px 1px rgba(77, 102, 166, 1);
+    -moz-box-shadow: 0px 0px 15px 1px rgba(77, 102, 166, 1);
+    box-shadow: 0px 0px 15px 1px rgba(77, 102, 166, 1);
+}
+.facebook a:active {
+    top: 21px;
+}
 .ou {
     text-align: center;
 }
@@ -192,6 +197,9 @@ header ul {
 }
 input:focus {
     background-color:#1B5288;
+    -webkit-box-shadow: 0px 0px 15px 4px rgba(77,102,166,1);
+    -moz-box-shadow: 0px 0px 15px 4px rgba(77,102,166,1);
+    box-shadow: 0px 0px 15px 4px rgba(77,102,166,1);
 }
 .subscribe {
     width: 280px;
@@ -206,12 +214,20 @@ input:focus {
     margin: 0 10px 0;
     display: inline-block;
     height: auto;
+    box-shadow: none;
 
 }
 .btn{
-   border-radius: 3px;}
-p {
-    font-size: 14px;
+    margin-left: 35%;
+    height: 30px;
+    width: 150px;
+    border-color: #6bb8e7;
+    border-radius: 2px;
+    background-color: #2e7ac4;
+    cursor: pointer;
+}
+.btn:hover{
+    background-color: #2e93df;
 }
 footer p {
     font-size: 11px;
