@@ -1,0 +1,18 @@
+
+table{
+    padding: 0 0;
+    margin: 0 0;
+    border-collapse: collapse;
+    background: white;
+    border: transparent;
+}
+tr, td{
+    padding: 0 0;
+    margin: 0 0;
+}
+td{
+    border: 6px solid black;
+    width: 80px;
+    height: 50px;
+    vertical-align: middle;
+}
