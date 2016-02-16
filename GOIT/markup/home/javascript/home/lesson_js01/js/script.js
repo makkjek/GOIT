@@ -1,12 +1,12 @@
-function enterNum (n1, n2) {
-    result = n1;
+function enterNum (number1, number2) {
+    result = number1;
     var isDegreeNegative = false ;
-    if (n2 < 0) {
-        n2 *= -1;
+    if (number2 < 0) {
+        number2 *= -1;
         isDegreeNegative = true;
     }
-    for (var i = 1; i < n2; i++) {
-        result *= n1;
+    for (var i = 1; i < number2; i++) {
+        result *= number1;
     }
     if (isDegreeNegative) {
         return 1/result;

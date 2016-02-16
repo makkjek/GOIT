@@ -1,29 +1,31 @@
-var timerId; // current timer if started
+var timerId;
+var hours = 0;
+var minutes = 0;
+var seconds = 0;
 function clockStart() {
-    if (timerId) return;
     timerId = setInterval(update, 1000);
-    update();
 }
 function clockStop() {
     clearInterval(timerId);
-    timerId = null;
 }
 function clockClear() {
+    hours = 0;
+    minutes = 0;
+    seconds = 0;
     document.getElementById('hour').innerHTML = "0";
     document.getElementById('min').innerHTML = "0";
     document.getElementById('sec').innerHTML = "0";
     clearInterval(timerId);
-    timerId = null;
 }
 function update() {
-    var date = new Date();
-    var hours = date.getHours();
-    if (hours < 10) hours = '0' + hours;
-    document.getElementById('hour').innerHTML = hours;
-    var minutes = date.getMinutes();
-    if (minutes < 10) minutes = '0' + minutes;
-    document.getElementById('min').innerHTML = minutes;
-    var seconds = date.getSeconds();
-    if (seconds < 10) seconds = '0' + seconds;
-    document.getElementById('sec').innerHTML = seconds;
+    if (seconds < 60) { seconds = seconds + 1; document.getElementById('sec').innerHTML = seconds; }  else {
+        seconds = 0;
+        document.getElementById('sec').innerHTML = seconds;
+        if (minutes < 60) { minutes = minutes + 1; document.getElementById('min').innerHTML = minutes; } else {
+            minutes = 0;
+            document.getElementById('min').innerHTML = minutes;
+            hours = hours + 1;
+            document.getElementById('hour').innerHTML = hours;
+        }
+    }
 }
